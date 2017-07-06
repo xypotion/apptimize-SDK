@@ -9,6 +9,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.apptimize.Apptimize;
+import com.apptimize.ApptimizeTest;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
