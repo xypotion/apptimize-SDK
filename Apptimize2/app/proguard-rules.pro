@@ -23,3 +23,9 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Apptimize stuff that I assume prevents its code from being removed/corrupted by ProGuard
+-keep class com.apptimize.** { *; }
+-keepclassmembers class * extends com.apptimize.ApptimizeTest {
+    <methods>;
+}
